@@ -1,0 +1,130 @@
+@import "./global.scss";
+
+.Hero {
+  display: flex;
+  height: calc(100vh + 60px);
+  padding-top: 60px;
+  align-items: center;
+  justify-content: center;
+
+  .left {
+    width: 50%;
+    @include md {
+      width: 100%;
+      margin-right: 30px;
+    }
+    .tagline {
+      @include md {
+        display: flex;
+      }
+      h1 {
+        margin-left: 60px;
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+        font-size: 35px;
+        @include md {
+          font-size: 25px;
+        }
+      }
+    }
+    .desc {
+      margin-left: 60px;
+      margin-top: 10px;
+      h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        @include md {
+          font-size: 15px;
+        }
+      }
+    }
+    .btnContainer {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      button {
+        font-size: 20px;
+        width: 50%;
+        padding: 10px 15px;
+        background-color: $orange;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 60px;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include md {
+          font-size: 15px;
+          width: 35%;
+        }
+
+        svg {
+          margin-left: 5px;
+        }
+      }
+      .outlined {
+        background-color: transparent;
+        color: $orange;
+        border: 1px solid $orange;
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    .containerR {
+      width: 100%;
+      h3 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 12px;
+        text-align: center;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 300;
+      }
+      .iconContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+        background-color: #101010;
+        .icon {
+          width: 25%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin: 5px;
+          font-size: 14px;
+          color: $orange;
+          font-family: inherit;
+          margin-bottom: 8px;
+          svg {
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+    }
+
+    @include md {
+      display: none;
+    }
+  }
+}
