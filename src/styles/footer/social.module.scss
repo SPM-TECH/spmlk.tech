@@ -1,0 +1,42 @@
+@import "../global.scss";
+
+.social {
+  padding: 10px;
+  .socialIcons {
+    p {
+      margin-bottom: 10px;
+      text-align: center;
+      @include md {
+        text-align: center;
+      }
+    }
+    .socialIconsContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .iconbox {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #404040;
+        margin: 0 5px;
+        border-radius: 5px;
+        padding: 5px;
+        .icons {
+          font-size: 30px;
+          color: #fff;
+          transition: all 0.3s ease-in-out;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            transform: scale(1.1);
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}

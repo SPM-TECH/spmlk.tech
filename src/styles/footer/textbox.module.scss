@@ -1,0 +1,10 @@
+@import "../global.scss";
+.textbox {
+  padding: 10px;
+  p {
+    font-size: 15px;
+    @include md {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "../global.scss";
+
+.header {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+  margin-top: 60px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content {
+    max-width: 1000px;
+  }
+}

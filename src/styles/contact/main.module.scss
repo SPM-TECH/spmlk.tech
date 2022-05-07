@@ -1,0 +1,104 @@
+@import "../global.scss";
+
+.contact {
+  min-height: calc(100vh + 60px);
+  margin-top: 60px;
+  .header {
+    margin: 50px 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .contact_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    .contact_list_wrapper {
+      width: 900px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      @include md {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper {
+      width: 1000px;
+      display: flex;
+
+      @include md {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .left {
+        width: 50%;
+        padding: 10px;
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        @include md {
+          width: 100%;
+          padding: 10px 50px;
+        }
+        .contentleft {
+          width: 100%;
+          h4 {
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 10px;
+          }
+          .mapcontainer {
+            padding: 5px;
+            width: 100%;
+            iframe {
+              border: none;
+            }
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        padding: 10px;
+        @include md {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.contact_card {
+  padding: 5px;
+  border: 1px solid $orange;
+  @include md {
+    margin: 10px 60px;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $orange;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 17px;
+    text-align: center;
+    text-transform: none;
+    font-weight: 400;
+  }
+}

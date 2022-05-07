@@ -1,0 +1,33 @@
+@import "../global.scss";
+
+.contactList {
+  margin: 10px;
+  @include md {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contactListItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    .contactListIcon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: #404040;
+      color: #fff;
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    .contactListText {
+      font-size: 15px;
+      font-weight: 300;
+      @include md {
+        font-size: 12px;
+      }
+    }
+  }
+}
