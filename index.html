@@ -1,510 +1,797 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>EMD-LABS-Edit</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>EMD-LABS-Edit</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets_home_page/img/favicon.png" rel="icon" />
+    <link
+      href="assets_home_page/img/apple-touch-icon.png"
+      rel="apple-touch-icon"
+    />
 
-  <!-- Favicons -->
-  <link href="assets_home_page/img/favicon.png" rel="icon">
-  <link href="assets_home_page/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets_home_page/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets_home_page/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets_home_page/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets_home_page/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets_home_page/vendor/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets_home_page/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets_home_page/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets_home_page/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets_home_page/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets_home_page/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+    <link href="assets_home_page/css/variables-orange.css" rel="stylesheet" />
 
-  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
-  <link href="assets_home_page/css/variables.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets_home_page/css/main.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center scrollto me-auto me-lg-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets_home_page/img/home/logo1.png" alt="" />
+          <!-- <h1>EMD-LABS<span>.</span></h1> -->
+        </a>
 
-  <!-- Template Main CSS File -->
-  <link href="assets_home_page/css/main.css" rel="stylesheet">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
 
-</head>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <!-- <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Team</a></li> -->
+            <li><a href="blog.html">Blog</a></li>
+            <!-- <li class="dropdown">
+              <a href="#"
+                ><span>Drop Down</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Drop Down</span>
+                    <i class="bi bi-chevron-down dropdown-indicator"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+              </ul>
+            </li> -->
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle d-none"></i>
+        </nav>
+        <!-- .navbar -->
 
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top" data-scrollto-offset="0">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets_home_page/img/home/logo1.png" alt="">
-        <!-- <h1>EMD-LABS<span>.</span></h1> -->
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-
-          <li><a href="index.html" class="active">Home</a></li>
-
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle d-none"></i>
-      </nav><!-- .navbar -->
-
-      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero carousel  carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-    <div class="carousel-item active">
-      <div class="container">
-        <div class="row justify-content-center gy-6">
-
-          <div class="col-lg-5 col-md-8">
-            <img src="assets_home_page/img/home/hero/1industry.jpeg" alt="" class="img-fluid img">
-          </div>
-
-          <div class="col-lg-9 text-center">
-            <h2>Welcome to EMD-LABS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-
-        </div>
+        <a class="btn-getstarted scrollto" href="index.html#about">Get Quote</a>
       </div>
-    </div><!-- End Carousel Item -->
+    </header>
+    <!-- End Header -->
 
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row justify-content-center gy-6">
-
-          <div class="col-lg-5 col-md-8">
-            <img src="assets_home_page/img/hero-carousel/hero-carousel-2.svg" alt="" class="img-fluid img">
-          </div>
-
-          <div class="col-lg-9 text-center">
-            <h2>At vero eos et accusamus</h2>
-            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-          </div>
-
-        </div>
-      </div>
-    </div><!-- End Carousel Item -->
-
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row justify-content-center gy-6">
-
-          <div class="col-lg-5 col-md-8">
-            <img src="assets_home_page/img/hero-carousel/hero-carousel-3.svg" alt="" class="img-fluid img">
-          </div>
-
-          <div class="col-lg-9 text-center">
-            <h2>Temporibus autem quibusdam</h2>
-            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-          </div>
-
-        </div>
-      </div>
-    </div><!-- End Carousel Item -->
-
-    <a class="carousel-control-prev" href="#hero" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-    </a>
-
-    <a class="carousel-control-next" href="#hero" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-    </a>
-
-    <ol class="carousel-indicators"></ol>
-
-  </section><!-- End Hero Section -->
-
-  <main id="main">
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Our Services</h2>
-          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
-        </div>
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets_home_page/img/home/services/pcb.png" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-activity"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Software Services</h3>
-                </a>
-                <p>We offer software related services for you. We give solutions to your web related problems and other applications.</p>
-              </div>
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="hero carousel carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-interval="5000"
+    >
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row justify-content-center gy-6">
+            <div class="col-lg-5 col-md-8">
+              <img
+                src="assets_home_page/img/home/about.png"
+                alt=""
+                class="img-fluid img"
+              />
             </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets_home_page/img/home/services/iot.png" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-broadcast"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Mechatronic Services</h3>
-                </a>
-                <p>We offer mechatronics solutions to your activities using modern technologies and with good expertise and design.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets_home_page/img/home/services/print3d.png" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-easel"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Business Services</h3>
-                </a>
-                <p>We help your business to grow and stabilize with incubation, branding and marketing and other services.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-          
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Featured Services Section -->
-
-
-    <!-- ======= Call To Action Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-out">
-
-        <div class="row g-5">
-
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn align-self-start" href="#">Call To Action</a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets_home_page/img/cta.jpg" alt="" class="img-fluid">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Call To Action Section -->
-
-    
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-
-        <div class="testimonials-slider swiper">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets_home_page/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets_home_page/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets_home_page/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets_home_page/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets_home_page/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients about" class="clients about">
-      <div class="container" data-aos="zoom-out">
-
-        <div class="section-header">
-          <h2>Our Clients</h2>
-          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
-        </div>
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets_home_page/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>HeroBiz</h3>
+            <div class="col-lg-9 text-center">
+              <h2><b>Welcome to EMD-LABS</b></h2>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                We help our clients drive business growth by providing
+                distruptive technology solution to meet their core business
+                requirements.
               </p>
             </div>
           </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
         </div>
       </div>
-    </div>
+      <!-- End Carousel Item -->
 
-    <div class="footer-legal text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row justify-content-center gy-6">
+            <div class="col-lg-5 col-md-8">
+              <img
+                src="assets_home_page/img/hero-carousel/hero-carousel-2.svg"
+                alt=""
+                class="img-fluid img"
+              />
+            </div>
 
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <div class="col-lg-9 text-center">
+              <h2>At vero eos et accusamus</h2>
+              <p>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+                Temporibus autem quibusdam et aut officiis debitis aut.
+              </p>
+            </div>
           </div>
         </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
-
       </div>
-    </div>
+      <!-- End Carousel Item -->
 
-  </footer><!-- End Footer -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row justify-content-center gy-6">
+            <div class="col-lg-5 col-md-8">
+              <img
+                src="assets_home_page/img/hero-carousel/hero-carousel-3.svg"
+                alt=""
+                class="img-fluid img"
+              />
+            </div>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+            <div class="col-lg-9 text-center">
+              <h2>Temporibus autem quibusdam</h2>
+              <p>
+                Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt omnis iste natus error sit voluptatem accusantium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Carousel Item -->
 
-  <div id="preloader"></div>
+      <a
+        class="carousel-control-prev"
+        href="#hero"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bi bi-chevron-left"
+          aria-hidden="true"
+        ></span>
+      </a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets_home_page/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets_home_page/vendor/aos/aos.js"></script>
-  <script src="assets_home_page/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets_home_page/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets_home_page/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets_home_page/vendor/php-email-form/validate.js"></script>
+      <a
+        class="carousel-control-next"
+        href="#hero"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bi bi-chevron-right"
+          aria-hidden="true"
+        ></span>
+      </a>
 
-  <!-- Template Main JS File -->
-  <script src="assets_home_page/js/main.js"></script>
+      <ol class="carousel-indicators"></ol>
+    </section>
+    <!-- End Hero Section -->
 
-</body>
+    <main id="main">
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2><b>Our Services</b></h2>
+            <p>
+              Offering a broad set of capabilities under one roof makes us a
+              versatile partner to meet all your digital ambitions.
+            </p>
+          </div>
 
+          <div class="row gy-5">
+            <div
+              class="col-xl-4 col-md-4"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img src="assets_home_page/img/home/process.png"
+                  class="img-fluid" alt="" width: 200px; height: 200px; />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-activity"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Software Services</h3>
+                  </a>
+                  <p>
+                    We offer software related services for you. We give
+                    solutions to your web related problems and other
+                    applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-4 col-md-4"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img
+                    src="assets_home_page/img/home/services/iot.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-broadcast"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Mechatronic Services</h3>
+                  </a>
+                  <p>
+                    We offer mechatronics solutions to your activities using
+                    modern technologies and with good expertise and design.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-4 col-md-4"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img
+                    src="assets_home_page/img/home/services/print3d.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-easel"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Business Services</h3>
+                  </a>
+                  <p>
+                    We help your business to grow and stabilize with incubation,
+                    branding and marketing and other services.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Featured Services Section ======= -->
+      <section id="featured-services" class="featured-services">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-activity icon"></i></div>
+                <h4>Entrepreneurial</h4>
+                <p>
+                  EMD Labs exists beacause a few people had a great idea and
+                  brought that idea to life. We continue to grow and thrive
+                  because that same enterpreneurial spirit is still strong
+                  within our company
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>Team Sprit</h4>
+                <p>
+                  We love working together, learning from each other and
+                  celebrating success. At EMD Labs everyone is welocome and
+                  included. All team member are eager to help their colleaguages
+                  and success is always team effort.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="zoom-out"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week icon"></i>
+                </div>
+                <h4>Learning Mindset</h4>
+                <p>
+                  EMD Labs employees will tell you when they know something and
+                  when they don't. If they don't, they'll be committed to
+                  finding the answer. They are constantly looking to improve the
+                  challange their existing knowledge base.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="zoom-out"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+                <h4>Committed</h4>
+                <p>
+                  No one said that getting 10,000 active clients by 2030 was
+                  going to be easy! We're in it for the long haul. Through good
+                  times and bad, we stick together beacause we believe in our
+                  product, our promise and our people.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Featured Services Section -->
+
+      <!-- ======= Call To Action Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-out">
+          <div class="row g-5">
+            <div
+              class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
+            >
+              <h3>Join with Us</h3>
+              <p>
+                Our greatest strength is our people. We celebrate diversity and
+                encourage individuals from varied backgrounds to join our team
+                for the richness in perspective and expertise that they bring to
+                the table. Do you see yourself being a part of our team?
+              </p>
+              <a class="cta-btn align-self-start" href="#"
+                >Explore Opportunities</a
+              >
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center"
+            >
+              <div class="img">
+                <img
+                  src="assets_home_page/img/cta.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Call To Action Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="fade-up">
+          <div class="testimonials-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets_home_page/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets_home_page/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets_home_page/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets_home_page/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets_home_page/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Clients Section ======= -->
+      <section id="clients about" class="clients about">
+        <div class="container" data-aos="zoom-out">
+          <div class="section-header">
+            <h2><b>Our Clients</b></h2>
+          </div>
+
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-1.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-2.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-3.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-4.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-5.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-6.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-7.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets_home_page/img/clients/client-8.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>Contact Us</h3>
+                <p>
+                  Dream Hive <br />Kallady, Batticaloa, SriLanka<br /><br />
+                  <strong>Phone:</strong> 065-2223443 / 0740164548<br />
+                  <strong>Email:</strong> info@emd-labs.com<br />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Software Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Mechatronic Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Business Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Products</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Initiatives</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>
+                Our latest news, articles, and resources, we will sent to your
+                inbox weekly.
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal text-center">
+        <div
+          class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <div class="copyright">
+              &copy; Copyright <strong><span>EMD LABS</span></strong
+              >. All Rights Reserved
+            </div>
+            <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">EMD LABS</a>
+            </div>
+          </div>
+
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href="https://twitter.com/emd_labs" class="twitter"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/emdlabs" class="facebook"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/emdlabs/" class="instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
+            <a href="https://www.linkedin.com/company/emdlabs/" class="linkedin"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets_home_page/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets_home_page/vendor/aos/aos.js"></script>
+    <script src="assets_home_page/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets_home_page/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets_home_page/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets_home_page/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets_home_page/js/main.js"></script>
+  </body>
 </html>
