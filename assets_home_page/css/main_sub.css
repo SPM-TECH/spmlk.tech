@@ -309,8 +309,10 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
   }
   .navbar .dropdown a:hover, .navbar .dropdown .active, .navbar .dropdown .active:focus, .navbar .dropdown:hover > a {
-    color: var(--color-white);
-    background: var(--color-secondary);
+    color: var(--color-black);
+    background: var(--color-primary);
+
+    
   }
   .navbar .dropdown ul {
     display: block;
