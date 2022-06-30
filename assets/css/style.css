@@ -622,8 +622,8 @@ section {
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
-.services{
-  padding-top: 10%;
+.service-align{
+  padding-top: 7%;
 }
 .services .icon-box {
   text-align: center;
@@ -1011,9 +1011,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 10%;
-}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1056,11 +1054,18 @@ section {
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+.portfolio-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
