@@ -71,7 +71,7 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html" class="active" id="test">Home</a></li>
 
             <li><a href="about.html">About</a></li>
             <li class="dropdown">
@@ -167,7 +167,29 @@
       data-bs-ride="carousel"
       data-bs-interval="5000"
     >
-      <div class="carousel-item active">
+      <div
+        class="carousel-item active"
+        style="
+          background: linear-gradient(
+              to top,
+              rgba(0, 0, 0, 0.52) 0%,
+              rgba(0, 0, 0, 0.75) 100%
+            ),
+            url('assets_home_page/img/home/team-photos/dream-hive-emd-lab-6.jpg')
+              center center;
+          width: 100%;
+          min-height: 100vh;
+          padding: 0;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 140px 0 60px 0;
+        "
+      >
         <div class="container">
           <div class="row justify-content-center gy-6">
             <div class="col-lg-5 col-md-8">
@@ -189,59 +211,88 @@
           </div>
         </div>
       </div>
+
       <!-- End Carousel Item -->
-      <!-- 
-      <div class="carousel-item">
+
+      <div
+        id="bg-2"
+        class="carousel-item"
+        style="
+          background: linear-gradient(
+              to top,
+              rgba(0, 0, 0, 0.52) 0%,
+              rgba(0, 0, 0, 0.75) 100%
+            ),
+            url('assets_home_page/img/home/team-photos/dream-hive-emd-lab-3.jpg')
+              center center;
+          width: 100%;
+          min-height: 100vh;
+          padding: 0;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 140px 0 60px 0;
+        "
+      >
         <div class="container">
           <div class="row justify-content-center gy-6">
-            <div class="col-lg-5 col-md-8">
-              <img
-                src="assets_home_page/img/hero-carousel/hero-carousel-2.svg"
-                alt=""
-                class="img-fluid img"
-              />
-            </div>
-
             <div class="col-lg-9 text-center">
-              <h2>At vero eos et accusamus</h2>
+              <h2><b>Welcome to EMD-LABS</b></h2>
               <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere possimus,
-                omnis voluptas assumenda est, omnis dolor repellendus.
-                Temporibus autem quibusdam et aut officiis debitis aut.
+                We help our clients drive business growth by providing
+                distruptive technology solution to meet their core business
+                requirements.
               </p>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- End Carousel Item -->
-      <!-- 
-      <div class="carousel-item">
+
+      <div
+        id="bg-3"
+        class="carousel-item"
+        style="
+          background: linear-gradient(
+              to top,
+              rgba(0, 0, 0, 0.52) 0%,
+              rgba(0, 0, 0, 0.75) 100%
+            ),
+            url('assets_home_page/img/home/team-photos/dream-hive-emd-lab-1.jpg')
+              center center;
+          width: 100%;
+          min-height: 100vh;
+          padding: 0;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 140px 0 60px 0;
+        "
+      >
         <div class="container">
           <div class="row justify-content-center gy-6">
-            <div class="col-lg-5 col-md-8">
-              <img
-                src="assets_home_page/img/hero-carousel/hero-carousel-3.svg"
-                alt=""
-                class="img-fluid img"
-              />
-            </div>
-
             <div class="col-lg-9 text-center">
-              <h2>Temporibus autem quibusdam</h2>
+              <h2><b>Welcome to EMD-LABS</b></h2>
               <p>
-                Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt omnis iste natus error sit voluptatem accusantium.
+                We help our clients drive business growth by providing
+                distruptive technology solution to meet their core business
+                requirements.
               </p>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- End Carousel Item -->
 
-      <!-- <a
+      <a
         class="carousel-control-prev"
         href="#hero"
         role="button"
@@ -265,7 +316,7 @@
         ></span>
       </a>
 
-      <ol class="carousel-indicators"></ol> -->
+      <!-- <ol class="carousel-indicators"></ol> -->
     </section>
     <!-- End Hero Section -->
 
@@ -1003,7 +1054,7 @@
     <script src="assets_about_page/assets/vendor/purecounter/purecounter.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets_home_page/js/main.js"></script>
+    <script src="assets_home_page/js/main_home.js"></script>
     <script src="assets/js/main.js"></script>
     <!-- <script src="assets_about_page/assets/js/main.js"></script> -->
   </body>

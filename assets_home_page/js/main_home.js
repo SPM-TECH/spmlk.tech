@@ -27,6 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
       window.scrollY > 100
         ? selectHeader.classList.add("sticked")
         : selectHeader.classList.remove("sticked");
+
+      navbarlinking.forEach((navbarlink) => {
+        if (window.scrollY > 100) {
+          navbarlink.style.color = "#78807A";
+        } else {
+          navbarlink.style.color = "white";
+        }
+      });
+
+      // ? (navbarlinking.style.color = "black")
+      // : (navbarlinking.style.color = "white");
     });
   }
 
