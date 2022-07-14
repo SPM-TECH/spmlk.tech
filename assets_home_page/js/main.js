@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
    * Sticky header on scroll
    */
   const selectHeader = document.querySelector("#header");
+  let navbarlinking = document.querySelectorAll(".navbar a");
   if (selectHeader) {
     document.addEventListener("scroll", () => {
       window.scrollY > 100
