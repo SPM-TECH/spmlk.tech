@@ -240,28 +240,28 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Porfolio isotope and filter
    */
-  let portfolionIsotope = document.querySelector('.portfolio-isotope');
+  let productnIsotope = document.querySelector('.product-isotope');
 
-  if (portfolionIsotope) {
+  if (productnIsotope) {
 
-    let portfolioFilter = portfolionIsotope.getAttribute('data-portfolio-filter') ? portfolionIsotope.getAttribute('data-portfolio-filter') : '*';
-    let portfolioLayout = portfolionIsotope.getAttribute('data-portfolio-layout') ? portfolionIsotope.getAttribute('data-portfolio-layout') : 'masonry';
-    let portfolioSort = portfolionIsotope.getAttribute('data-portfolio-sort') ? portfolionIsotope.getAttribute('data-portfolio-sort') : 'original-order';
+    let productFilter = productnIsotope.getAttribute('data-product-filter') ? productnIsotope.getAttribute('data-product-filter') : '*';
+    let productLayout = productnIsotope.getAttribute('data-product-layout') ? productnIsotope.getAttribute('data-product-layout') : 'masonry';
+    let productSort = productnIsotope.getAttribute('data-product-sort') ? productnIsotope.getAttribute('data-product-sort') : 'original-order';
 
     window.addEventListener('load', () => {
-      let portfolioIsotope = new Isotope(document.querySelector('.portfolio-container'), {
-        itemSelector: '.portfolio-item',
-        layoutMode: portfolioLayout,
-        filter: portfolioFilter,
-        sortBy: portfolioSort
+      let productIsotope = new Isotope(document.querySelector('.product-container'), {
+        itemSelector: '.product-item',
+        layoutMode: productLayout,
+        filter: productFilter,
+        sortBy: productSort
       });
 
-      let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
+      let menuFilters = document.querySelectorAll('.product-isotope .product-flters li');
       menuFilters.forEach(function(el) {
         el.addEventListener('click', function() {
-          document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
+          document.querySelector('.product-isotope .product-flters .filter-active').classList.remove('filter-active');
           this.classList.add('filter-active');
-          portfolioIsotope.arrange({
+          productIsotope.arrange({
             filter: this.getAttribute('data-filter')
           });
           if (typeof aos_init === 'function') {
