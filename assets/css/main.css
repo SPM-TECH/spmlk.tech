@@ -546,6 +546,37 @@ section {
 }
 
 /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-m .content h3 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-m .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-m .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.about-m .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: #ffc451;
+}
+
+.about-m .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
 .about h3 {
