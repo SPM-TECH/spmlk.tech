@@ -1349,7 +1349,6 @@ img {
 
 .main-menu .navigation > li > .megamenu li > a:before{
   position: absolute;
-  content: '';
   width: 0%;
   height: 1px;
   left: 0px;
@@ -1737,7 +1736,6 @@ img {
 }
 
 .mobile-menu .navigation li > a:before{
-  content:'';
   position:absolute;
   left:0;
   top:0;
@@ -1977,7 +1975,6 @@ div#mCSB_1_container{
 
 .header-style-two .main-menu .navigation > li > a:before{
   position: absolute;
-  content: "\f107";
   font-family: 'Font Awesome 5 Pro';
   top: 40px;
   right: 0px;
