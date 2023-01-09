@@ -1,97 +1,97 @@
 /* Default Color File  */
 
 :root {
-    --theme-color: #e35711;
+    --color-primary: var(--color-primary);
 }
 
 .theme-color {
-    color: var(--theme-color);
+    color: var(--color-primary);
 }
 
 /* Color */
 a:hover,
 a {
-    color: #e35711;
+    color: var(--color-primary);
 }
 
 .preloader-close,
 .search-popup .search-form fieldset input[type="submit"] {
-    background-color: #e35711;
+    background-color: var(--color-primary);
 }
 
 .btn-style-one {
-    background-color: #e35711;
+    background-color: var(--color-primary);
 }
 
 .main-header .header-upper .search-box button:before {
-    background-color: #e35711;
+    background-color: var(--color-primary);
 }
 
 .main-header.ex_shop_header .header-upper .right-info li a:hover {
-    color: #e35711;
+    color: var(--color-primary);
 }
 
 .ex_shop_header .header-phone-number a:hover{
-    color: #e35711;
+    color: var(--color-primary);
 }
 
 .main-header .header-upper .right-info li .shopping-cart .count {
-    background: #e35711;
+    background: var(--color-primary);
 }
 
 .main-menu .navigation>li>ul>li>a:hover {
-    color: #e35711;
+    color: var(--color-primary);
 }
 
 .hidden-sidebar .content-wrapper {
-    background-color: #e35711;
+    background-color: var(--color-primary);
 }
 
 .banner-section_hr_001 .banner-slider-button-next:hover {
-    background-color: #e35711;
+    background-color: var(--color-primary);
 }
 
 .banner-section_hr_001 .banner-slider-button-prev:hover {
-    background-color: #e35711;
+    background-color: var(--color-primary);
 }
 
 .links-widget_hr_001 li a:hover {
-    color: rgb(227, 87, 17);
+    color: var(--color-primary);
 }
 
 .contact-widget_hr_001 ul li a:hover {
-    color: rgb(227, 87, 17);
+    color: var(--color-primary);
 }
 
 .footer-bottom_hr_001 .menu li a:hover {
-    color: rgb(227, 87, 17);
+    color: var(--color-primary);
 }
 
 .ex_shop_header .header-lower .shop-category > a{
-    background-color: #e35712;
+    background-color: var(--color-primary);
 }
 
 .ex_shop_header .header-lower .shop-category > ul>li>a:hover{
-    color: #e35712;
+    color: var(--color-primary);
 }
 
 .ex_shop_header .header-lower .shop-category > ul>li> ul>li>a:hover{
-    color: #e35712;
+    color: var(--color-primary);
 }
 
 .ex_shop_header .main-menu .navigation > li > ul > li > a:hover, 
 .ex_shop_header .main-menu .navigation > li > .megamenu li > a:hover{
-    color: #e35712;
+    color: var(--color-primary);
 }
 
 .ex_shop_header .main-menu .navigation > li > .megamenu li > a:before{
-    background-color: #e35712;
+    background-color: var(--color-primary);
 }
 
 .ex_shop_header .main-menu .navigation > li > ul > li > ul > li > a:hover{
-    color: #e35712;
+    color: var(--color-primary);
 }
 
 .ex_shop_header .header-top ul.contact-info li a:hover{
-    color: #e35712;
+    color: var(--color-primary);
 }

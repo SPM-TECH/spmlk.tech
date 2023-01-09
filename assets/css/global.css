@@ -36,7 +36,12 @@
   outline:none;
 }
 
-
+:root {
+	--color-default: #222222;
+	--color-primary: #F27405;
+	--color-secondary: #737373;
+  }
+  
 /*** 
 
 ====================================================================
@@ -469,7 +474,7 @@ img {
 }
 
 .theme-btn-two span:after{
-  color: #f4244f;
+  color: var(--color-primary);
   opacity: 0;
 }
 
@@ -847,7 +852,7 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #f4244f;
+  background-color: var(--color-primary);
   opacity: .3;
 }
 
