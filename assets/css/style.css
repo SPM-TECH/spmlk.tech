@@ -7979,7 +7979,7 @@ div[class^="bubble-"] {
   top: 60% !important;
   width: 100px;
   height: 100px;
-  background: #fab567;
+  background: var(--color-primary);
   border-radius: 50%;
 }
 
