@@ -1,7 +1,9 @@
 /* Default Color File  */
 
-:root {
-    --color-primary: var(--color-primary);
+:root{
+	--color-default: #222222;
+    --color-primary: #F27405;
+    --color-secondary: #737373;
 }
 
 .theme-color {

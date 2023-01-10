@@ -1,17 +1,23 @@
 /* Elementpath css */
 
+:root{
+	--color-default: #222222;
+    --color-primary: #F27405;
+    --color-secondary: #737373;
+}
+
 /* 
 el_01 
 color
 */
 .color_blue {
-    color: #7f27d8;
+    color: var(--color-primary);
 }
 .color_purple {
-    color: #6f42c1;
+    color: var(--color-primary);
 }
 .color_pink {
-    color: #d63384;
+    color: var(--color-primary);
 }
 .color_red {
     color: #dc3545;
@@ -43,13 +49,13 @@ el_02
 background
 */
 .bg_blue {
-    background-color: #7f27d8;
+    background-color: var(--color-primary);
 }
 .bg_purple {
-    background-color: #6f42c1;
+    background-color: var(--color-primary);
 }
 .bg_pink {
-    background-color: #d63384;
+    background-color: var(--color-primary);
 }
 .bg_red {
     background-color: #dc3545;
@@ -3985,7 +3991,7 @@ Btn
     padding: 14.5px 31px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
     z-index: 1;
     vertical-align: middle;
 }
@@ -4031,7 +4037,7 @@ Btn
     content: "";
     top: 110%;
     left: 50%;
-    background: #0d6efd;
+    background: var(--color-primary);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     border-radius: 50%;
@@ -4074,7 +4080,7 @@ Image Hover
 .img_hover_2 {
     position: relative;
     overflow: hidden;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
 }
 .img_hover_2 img{
     width: 100%;
@@ -4183,7 +4189,7 @@ Image Hover
     top: 0px;
     opacity: 0.8;
     transition: all 500ms ease;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
 }
 .img_hover_4:hover:before{
     height: 100%;
@@ -4204,7 +4210,7 @@ Image Hover
     opacity: 0.9;
     z-index: 1;
     transition: all 500ms ease;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
 }  
 .img_hover_5:hover:before{
     transform: scale(1,1);
@@ -4220,7 +4226,7 @@ Image Hover
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
 }
 .img_hover_6 img{
     width: 100%;
@@ -4330,7 +4336,7 @@ Image Hover
     transform-style: preserve-3d;
     transform: scaleY(0);
     z-index: 1;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
 }
 .img_hover_9:hover:before{
     opacity: 0.80;
@@ -4353,7 +4359,7 @@ Image Hover
     transform-style: preserve-3d;
     transform: scaleY(0);
     z-index: 1;
-    background-color: #0d6efd;
+    background-color: var(--color-primary);
 }
 .img_hover_9:hover:after{
     opacity: 0.80;
@@ -4372,7 +4378,7 @@ Image Hover
     right: 0;
     bottom: 0;
     opacity: 0;
-    background: #0d6efd;
+    background: var(--color-primary);
     opacity: 1.0;
     transition: .5s;
     transform: perspective(400px) scaleY(0);
