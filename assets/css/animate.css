@@ -6,7 +6,11 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
-
+:root{
+	--color-default: #222222;
+    --color-primary: #F27405;
+    --color-secondary: #737373;
+}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

@@ -634,7 +634,7 @@ img {
 
 .theme-btn-four{
   border-radius: 30px;
-  background: #6a36ff;
+  background: var(--color-primary);
 }
 
 .theme-btn-four:before{
@@ -661,7 +661,7 @@ img {
 /** theme-btn-five **/
 
 .theme-btn-five{
-  background: #612ade;
+  background: var(--color-primary) !important;
   padding: 17px 40px;
 }
 
@@ -691,13 +691,13 @@ img {
 
 .theme-btn-six:hover{
   color: #fff !important;
-  border-color: #612ade;
+  border-color: var(--color-primary);
 }
 
 .theme-btn-six:before{
   position: absolute;
   content: '';
-  background: #612ade;
+  background: var(--color-primary);
   width: 0%;
   height: 100%;
   left: 0px;

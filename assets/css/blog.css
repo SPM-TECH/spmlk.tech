@@ -1,4 +1,9 @@
 
+:root{
+	--color-default: #222222;
+    --color-primary: #F27405;
+    --color-secondary: #737373;
+}
 
 .blog-standard-content .news-block-one .lower-content .category a:hover{
 	text-decoration: underline;
@@ -245,12 +250,12 @@
 }
 
 .blog-grid-two .news-block-one .inner-box .theme-btn:hover{
-	border-color: #e45712;
-	background: #e45712;
+	border-color: var(--color-primary);
+	background: var(--color-primary);
 }
 
 .blog-masonry-two .more-btn .theme-btn{
-	background: #e45712;
+	background: var(--color-primary);
 	padding: 12px 40px;
 }
 
@@ -435,7 +440,7 @@
 
 .blog-details-content .comments-form-area .theme-btn{
 	padding: 13px 31px;
-	background: #e35712;
+	background: var(--color-primary);
 	color: #fff !important;
 	border: none;
 }
@@ -502,5 +507,5 @@
 
 .sidebar-page-container .theme-btn:hover{
 	color: #fff !important;
-	border-color: #e45712;
+	border-color: var(--color-primary);
 }

@@ -1,6 +1,12 @@
 /* 
  *  Owl Carousel - Animate Plugin
  */
+
+ :root {
+	--color-default: #222222;
+	--color-primary: #F27405;
+	--color-secondary: #737373;
+  }
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
@@ -231,7 +237,7 @@
   font-size: 25px;
 }
 .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover{
-  color: #f2be00;
+  color: var(--color-primary);
 }
 .owl-theme .owl-controls .owl-nav .disabled {
   cursor: default;

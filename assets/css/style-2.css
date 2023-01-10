@@ -1,5 +1,11 @@
 
 
+:root {
+	--color-default: #222222;
+	--color-primary: #F27405;
+	--color-secondary: #737373;
+  }
+
 textarea {
     overflow: hidden;
 }
@@ -956,7 +962,7 @@ img {
     height: 70px;
     text-align: center;
     line-height: 70px;
-    background: #fc5f44;
+    background: var(--color-primary);
 }
 
 .hidden-sidebar .logo {
@@ -1790,7 +1796,7 @@ section.features-section_hr_001 {
     width: 54px;
     height: 27px;
     border-radius: 5px;
-    background-color: #e35712;
+    background-color: var(--color-primary);
     text-align: center;
     color: #fff;
     position: absolute;
@@ -1833,7 +1839,7 @@ section.features-section_hr_001 {
 
 .product-block_hr_001 .rating {
     font-size: 13px;
-    color: #ffc92e;
+    color: var(--color-primary);
     margin-bottom: 5px;
 }
 
@@ -1939,8 +1945,8 @@ section.products-section_hr_001 {
 
 .owl-dot-style-one .owl-dots .owl-dot.active span,
 .owl-dot-style-one .owl-dots .owl-dot:hover span {
-    background: #e35712;
-    border-color: #e35712;
+    background: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 /* collection block */
@@ -1975,7 +1981,7 @@ section.products-section_hr_001 {
 
 .collection-block .category {
     line-height: 26px;
-    color: #e35712;
+    color: var(--color-primary);
     margin-bottom: 7px;
     position: relative;
 }
@@ -2004,7 +2010,7 @@ section.collection-section_hr_001 {
 
 .collection-block-two .category {
     line-height: 26px;
-    color: #e35712;
+    color: var(--color-primary);
     margin-bottom: 7px;
 }
 
@@ -2294,7 +2300,7 @@ section.news-section_hr_001 {
 /* newsletter section */
 .newsletter-section_hr_001 {
     position: relative;
-    background: #e35712;
+    background: var(--color-primary);
     padding-top: 40px;
 }
 
@@ -2376,7 +2382,7 @@ section.news-section_hr_001 {
     position: absolute;
     left: 0;
     top: 8px;
-    color: #e35712;
+    color: var(--color-primary);
 }
 
 .main-header .header-upper .right-info .icon-box h5 {
@@ -2611,7 +2617,7 @@ section.offer-section_hr_001 {
 
 .offer-block_hr_001 .category {
     line-height: 26px;
-    color: #e35712;
+    color: var(--color-primary);
     margin-bottom: 7px;
 }
 
@@ -2739,7 +2745,7 @@ section.products-section_hr_001-three .right-column {
 
 .offer-block_hr_001-two .category {
     line-height: 26px;
-    color: #e35712;
+    color: var(--color-primary);
     margin-bottom: 7px;
 }
 
@@ -2820,7 +2826,7 @@ section.products-section_hr_001-three .right-column {
 
 .offer-block_hr_001-three .category {
     line-height: 26px;
-    color: #e35712;
+    color: var(--color-primary);
     margin-bottom: 7px;
 }
 
