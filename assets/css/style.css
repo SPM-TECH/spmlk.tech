@@ -2678,6 +2678,10 @@
   right: 0px;
 }
 
+.service-block-three .inner-box h4{
+  color: #fff;
+}
+
 .service-block-three .inner-box h4 a{
   color: #fff;
 }
@@ -2785,57 +2789,6 @@
 .funfact-three .count-outer,
 .funfact-three .counter-block-one .inner-box p{
   color: #141417;
-}
-
-
-/** project-two **/
-
-
-.project-block-two .inner-box .content-box{
-  width: calc(100% - 60px);
-  background: #fff;
-  bottom: 0px;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 500ms ease;
-}
-
-.project-block-two .inner-box:hover .content-box{
-  bottom: 30px;
-  opacity: 1;
-  visibility: visible;
-}
-
-.project-block-two .inner-box h4 a{
-  color: #141417;
-}
-
-.project-block-two .inner-box h4 a:hover{
-
-}
-
-.project-block-two .inner-box .link a{
-  color: #141417;
-}
-
-.project-block-two .inner-box .link a:hover{
-  transform: scale(1.2);
-}
-
-.project-block-two .inner-box .image-box{
-  background: #000;
-  overflow: hidden;
-}
-
-.project-block-two .inner-box .image-box img{
-  width: 100%;
-  border-radius: 5px;
-  transition: all 500ms ease;
-}
-
-.project-block-two .inner-box:hover .image-box img{
-  opacity: 0.6;
-  transform: scale(1.05);
 }
 
 .sortable-masonry .filter-tabs li{
