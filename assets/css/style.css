@@ -7776,7 +7776,7 @@ div[class^="bubble-"] {
 /** banner-three **/
 
 .banner-three{
-  padding-top: 275px;
+  padding-top: 225px;
   overflow: hidden;
 }
 
@@ -7804,26 +7804,6 @@ div[class^="bubble-"] {
   background: rgba(246, 195, 122, 0.15);
   background-repeat: no-repeat;
   animation: heroShapeFour 6s linear infinite;
-}
-
-.banner-three .video-btn{
-  color: #141417;
-  margin-top: 0px;
-  line-height: 26px;
-}
-
-.banner-three .video-btn i{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  font-size: 20px;
-  text-align: center;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.20);
 }
 
 .banner-three .shape .shape-1{
@@ -11099,7 +11079,7 @@ div[class^="bubble-"] {
 }
 
 .project-three.about-page-2 .project-block-three{
-  max-width: 546px;
+  max-width: 400px;
   width: 100%;
 }
 
