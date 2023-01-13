@@ -925,107 +925,107 @@
 }
 
 .handle-preloader.service-details-3{
-	background: #18be74;
+	background: var(--color-primary);
 }
 
 .service-details-3 .service-sidebar .category-widget .category-list li a.current,
 .service-details-3 .service-sidebar .category-widget .category-list li a:hover{
-	border-color: #18be74;
+	border-color: var(--color-primary);
 }
 
 .service-details-3 .service-sidebar .category-widget .category-list li a.current:before,
 .service-details-3 .service-sidebar .category-widget .category-list li a:hover:before{
-	background: #18be74;
+	background: var(--color-primary);
 }
 
 .service-details-3 .service-sidebar .contact-widget .info-list li i{
-	color: #18be74;
+	color: var(--color-primary);
 }
 
 .service-sidebar .contact-widget .social-links li a:hover{
-	color: #18be74;
+	color: var(--color-primary);
 }
 
 .service-details-3 .contact-widget .info-list li a:hover{
-	color: #18be74;
+	color: var(--color-primary);
 }
 
 .service-sidebar .download-widget .download-list li a i{
-	color: #18be74;
+	color: var(--color-primary);
 }
 
 .service-sidebar .download-widget .download-list li a:hover{
-	background: #18be74;
+	background: var(--color-primary);
 }
 
 .service-details-content .quote-inner blockquote{
-  background: #18be74;
+  background: var(--color-primary);
 }
 
 .handle-preloader.career-page{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .main-header.career-page .main-menu .navigation > li.current > a, 
 .main-header.career-page .main-menu .navigation > li:hover > a{
-  color: #612ade;
+  color: var(--color-primary);
 }
 
 .main-header.career-page .main-menu .navigation > li > ul > li > a:hover, 
 .main-header.career-page .main-menu .navigation > li > .megamenu li > a:hover{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .main-header.career-page .main-menu .navigation > li > .megamenu li > a:before{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .main-header.career-page .main-menu .navigation > li > ul > li > ul > li > a:hover{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .main-header.career-page .nav-right .search-box-outer:hover{
-  color: #612ade;
+  color: var(--color-primary);
 }
 
 .main-header.career-page .nav-right .nav-btn:hover{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .main-header.career-page .search-panel .search-btn{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .job-category .single-item .icon-box{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .job-category .single-item:before{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .positions-block-one .inner-box .list li:before{
-	border: 2px solid #612ade;
+	border: 2px solid var(--color-primary);
 }
 
 .positions-block-one .inner-box .theme-btn:hover{
-	border-color: #612ade;
+	border-color: var(--color-primary);
 }
 
 .positions-block-one .inner-box .theme-btn:before{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .process-six.process-page .processing-block-five .inner-box .count-box{
-  background: #612ade;
+  background: var(--color-primary);
 }
 
 .process-one.process-page .processing-block-one .inner-box .icon-box{
-  color: #612ade;
+  color: var(--color-primary);
 }
 
 .process-one.process-page .processing-block-one .inner-box .icon-box:before{
-	background: -webkit-linear-gradient(45deg, #612ade, #612ade 100%);
+	background: -webkit-linear-gradient(45deg, var(--color-primary), var(--color-primary) 100%);
 }
 
 .process-one.process-page .processing-block-one .inner-box .icon-box .count-box:before{
@@ -1033,76 +1033,76 @@
 }
 
 .processing-block-six .inner-box .count-box:before{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .processing-block-six .inner-box:hover .count-box:after{
-	border-color: #612ade;
+	border-color: var(--color-primary);
 }
 
 .process-three.process-page .processing-block-three .inner-box .icon-box{
-  color: #612ade;
+  color: var(--color-primary);
 }
 
 .process-three.process-page .processing-block-three .inner-box .icon-box .count-text{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .process-three.process-page .processing-block-three .inner-box:hover .icon-box:before{
-  background: #612ade;
+  background: var(--color-primary);
 }
 
 .process-three.process-page .processing-block-three .inner-box:hover .icon-box .count-text{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .process-five.process-page .processing-block-four .inner-box .count-box{
-  background: #612ade;
+  background: var(--color-primary);
 }
 
 .process-five.process-page .processing-block-four .inner-box .count-box:after{
-	border: 2px dashed #612ade;
+	border: 2px dashed var(--color-primary);
 }
 
 .process-five.process-page .processing-block-four .inner-box .count-box .overlay-icon{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .handle-preloader.faq-page{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .faq-sidebar .support-widget:before{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .faq-sidebar .consulting-widget input:focus,
 .faq-sidebar .consulting-widget textarea:focus{
-	border-color: #612ade !important;
+	border-color: var(--color-primary) !important;
 }
 
 .faq-sidebar .consulting-widget .theme-btn{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .faq-sidebar .category-widget .category-list li a{
-	color: #612ade;
+	color: var(--color-primary);
 }
 
 .faq-page-section.faq-page-2 .accordion-box .block .acc-btn.active{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .faq-page-section.faq-page-3 .accordion-box .block .acc-btn.active{
-	background: #612ade;
+	background: var(--color-primary);
 }
 
 .team-four.team-page-2 .team-block-one .inner-box .lower-content h4 a:hover{
-	color: #612ade !important;
+	color: var(--color-primary) !important;
 }
 
 .team-four.team-page-2 .team-block-one .inner-box .image-box .social-links-two li a:hover{
-  background: #612ade;
+  background: var(--color-primary);
 }
 
 .main-header.team-page-4 .main-menu .navigation > li.current > a, 

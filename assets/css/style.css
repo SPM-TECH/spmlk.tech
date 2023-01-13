@@ -3552,11 +3552,12 @@
   position: relative;
   display: inline-block;
   background: #fff;
-  color: #141417;
+  color: var(--color-primary);
 }
 
 .team-block-one .inner-box .image-box .social-links-two li a:hover{
-  color: #fff;
+  color: #FFF;
+  background: var(--color-primary);
 }
 
 
