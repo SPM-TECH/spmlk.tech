@@ -3234,6 +3234,15 @@
     padding-bottom: 70px;
   }
 
+  .banner-three{
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+  }
+
+  .banner-three .theme-btn{
+    margin-bottom: 20px;
+  }
+
   .image_block_13 .image-box .shape,
   .image_block_14 .image-box .shape{
     display: none;
