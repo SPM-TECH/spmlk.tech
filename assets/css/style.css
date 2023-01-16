@@ -489,7 +489,7 @@
   font-size: 22px;
   line-height: 38px;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
   text-align: center;
 }
@@ -549,7 +549,7 @@
 }
 
 .list-style-one li{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
   width: 50%;
 }
@@ -985,7 +985,7 @@
 }
 
 .processing-block-one .inner-box .icon-box .count-box{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
   right: -14px;
   background: #fff;
@@ -1123,7 +1123,7 @@
 
 .progress-box .count-text{
   color: #141417;
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 
@@ -1233,7 +1233,7 @@
 
 .counter-block-one .inner-box .count-outer{
   position: relative;
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .counter-block-one .inner-box p{
@@ -1281,7 +1281,7 @@
   padding: 10px 50px 10px 0px;
   line-height: 20px;
   color: #141417;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
@@ -1360,7 +1360,7 @@
 }
 
 .pricing-block-one .pricing-table .table-content .feature-list li{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
 }
 
@@ -1597,7 +1597,7 @@
 .slider-two h2,
 .slider-two p,
 .slider-two .theme-btn{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .slider-two .banner-carousel .content-box{
@@ -1644,7 +1644,7 @@
 }
 
 .feature-two h4{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .feature-block-two .inner-box .icon-box{
@@ -2570,7 +2570,7 @@
   font-size: 22px;
   line-height: 38px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
   text-align: center;
 }
@@ -2768,7 +2768,7 @@
   position: relative;
   display: inline-block;
   font-size: 17px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   line-height: 24px;
   color: #808080;
   cursor: pointer;
@@ -3033,7 +3033,7 @@
 .contact-one textarea{
   border-radius: 30px !important;
   color: #141417 !important;
-  font-family: 'Oxygen', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 16px !important;
 }
 
@@ -3054,7 +3054,7 @@
   display: inline-block;
   overflow: hidden;
   vertical-align: middle;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   font-weight: 700;
   line-height: 26px;
@@ -3550,7 +3550,7 @@
   font-size: 16px;
   line-height: 26px;
   color: #141417;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   cursor: pointer;
   margin: 0px 15px;
@@ -3681,7 +3681,7 @@
   text-align: center;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 500;
   color: #141417;
   cursor: pointer;
@@ -3809,7 +3809,7 @@
   font-size: 16px;
   font-weight: 500;
   color: #848484;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
   padding: 0px 20px;
@@ -3963,7 +3963,7 @@
 }
 
 .banner-two .theme-btn.btn-two{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 16px;
   font-weight: 700;
   padding-top: 17px;
@@ -4291,7 +4291,7 @@
   padding: 10px 50px 10px 0px;
   line-height: 20px;
   color: #141417;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
@@ -4826,7 +4826,7 @@
 .service-six .theme-btn.btn-eight{
   padding-top: 17px;
   padding-bottom: 17px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
 }
 
@@ -4856,7 +4856,7 @@
 .support-area .theme-btn.btn-eight{
   padding-top: 17px;
   padding-bottom: 17px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
 }
 
@@ -5069,7 +5069,7 @@
 
 .news-six .news-block-one .theme-btn.btn-three{
   font-size: 16px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
   border-radius: 30px;
   padding-top: 11px;
@@ -5122,7 +5122,7 @@
   right: 0px;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 30px;
   padding: 17px 41px;
 }
@@ -5620,7 +5620,7 @@
   border-radius: 0px;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 16px 30px;
 }
 
@@ -5651,7 +5651,7 @@
 .appointment-one .content-box .form-group textarea{
   border-radius: 0px;
   color: #141417;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .appointment-one .content-box .form-group textarea{
@@ -5987,7 +5987,7 @@ div[class^="bubble-"] {
   padding: 21px 15px;
   text-align: center;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 500;
   color: #141417;
   cursor: pointer;
@@ -6275,7 +6275,7 @@ div[class^="bubble-"] {
 }
 
 .pricing-four .pricing-block-one .pricing-table .table-content .feature-list li{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .pricing-four .pricing-block-one .pricing-table .table-header h6{
@@ -6388,7 +6388,7 @@ div[class^="bubble-"] {
 .news-eight .news-block-one .inner-box .lower-content .theme-btn{
   border-radius: 0px;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 500;
 }
 
@@ -6416,7 +6416,7 @@ div[class^="bubble-"] {
   font-size: 16px;
   border-radius: 0px;
   color: #141417;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .appointment-two .content-box .form-group textarea{
@@ -7283,7 +7283,7 @@ div[class^="bubble-"] {
   color: #808080;
   padding: 15px 30px;
   font-size: 16px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 0px;
 }
 
@@ -7297,7 +7297,7 @@ div[class^="bubble-"] {
   right: 0px;
   font-size: 15px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 0px;
   padding: 17px 40px;
   width: 160px;
@@ -7344,7 +7344,7 @@ div[class^="bubble-"] {
 
 .slider-nine .content-box .theme-btn.btn-two{
   border-radius: 0px;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding-top: 17px;
   padding-bottom: 17px;
   font-size: 17px;
@@ -7425,7 +7425,7 @@ div[class^="bubble-"] {
 .about-11 .content_block_nine .content-box .theme-btn{
   padding: 17px 43px;
   font-weight: 600;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 17px;
   background: #ff5e14;
 }
@@ -7504,7 +7504,7 @@ div[class^="bubble-"] {
 
 .service-11 .theme-btn.btn-two{
   border-radius: 0px;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding-top: 17px;
   padding-bottom: 17px;
   font-size: 17px;
@@ -7599,7 +7599,7 @@ div[class^="bubble-"] {
   padding-bottom: 16px;
   font-size: 17px;
   font-weight: 600;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 
@@ -7620,7 +7620,7 @@ div[class^="bubble-"] {
   color: #808080;
   padding: 15px 30px;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 0px;
 }
 
@@ -7654,13 +7654,14 @@ div[class^="bubble-"] {
 /** banner-three **/
 
 .banner-three{
-  padding-top: 225px;
+  padding-top: 240px;
   overflow: hidden;
+  padding-bottom: 200px;
 }
 
 .banner-three .bg-layer{
   width: 783px;
-  height: 729px;
+  height: 850px;
   background-repeat: no-repeat;
 }
 
@@ -7669,7 +7670,7 @@ div[class^="bubble-"] {
   right: 0px;
   width: 839px;
   height: 827px;
-  background: rgba(255, 97, 68, 0.15);
+  background: rgba(242, 116, 5, 0.75);
   background-repeat: no-repeat;
   animation: heroShapeFour 6s linear infinite;
 }
@@ -7679,7 +7680,7 @@ div[class^="bubble-"] {
   right: 0px;
   width: 809px;
   height: 827px;
-  background: rgba(246, 195, 122, 0.15);
+  background: rgba(242, 116, 5, 0.5);
   background-repeat: no-repeat;
   animation: heroShapeFour 6s linear infinite;
 }
@@ -8069,7 +8070,7 @@ div[class^="bubble-"] {
 
 .news-12 .news-block-one .inner-box .lower-content .theme-btn{
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -8237,7 +8238,7 @@ div[class^="bubble-"] {
   line-height: 30px;
   color: #b3b3b3;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   transition: all 500ms ease;
 }
 
@@ -8251,7 +8252,7 @@ div[class^="bubble-"] {
   right: 16px;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   text-align: center;
   padding: 12px 31px;
@@ -8350,14 +8351,14 @@ div[class^="bubble-"] {
 /** pricing-six **/
 
 .pricing-six .tab-btn-box .tab-btns li{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .pricing-six .pricing-block-two .pricing-table .theme-btn.btn-two{
   border: 1px solid #e7e7e7;
   border-radius: 5px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -9136,7 +9137,7 @@ div[class^="bubble-"] {
 .subscribe-one.home-14 .form-inner .form-group button{
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 30px;
   width: 174px;
   padding: 17px 30px;
@@ -9263,7 +9264,7 @@ div[class^="bubble-"] {
   display: inline-block;
   float: left;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   color: #141417;
   background: #f1fbf7;
@@ -9361,7 +9362,7 @@ div[class^="bubble-"] {
   color: #141417 !important;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 30px;
   padding-top: 17px;
   padding-bottom: 17px;
@@ -9502,7 +9503,7 @@ div[class^="bubble-"] {
   padding-bottom: 16px;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .pricing-seven .pricing-block-two .pricing-table .table-header{
@@ -9737,7 +9738,7 @@ div[class^="bubble-"] {
   float: left;
   font-size: 18px;
   line-height: 28px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   color: #141417;
   margin-right: 35px;
@@ -9899,7 +9900,7 @@ div[class^="bubble-"] {
   width: 50%;
   font-size: 18px;
   line-height: 28px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   color: #141417;
   cursor: pointer;
@@ -10053,7 +10054,7 @@ div[class^="bubble-"] {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #fff;
   text-align: center;
   cursor: pointer;
@@ -10227,7 +10228,7 @@ div[class^="bubble-"] {
 
 .project-seven .sortable-masonry .filter-tabs li{
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
 }
 
@@ -10406,7 +10407,7 @@ div[class^="bubble-"] {
 .pricing-block-three .pricing-table .theme-btn{
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417 !important;
   border: 1px solid #e7e7e7;
   padding: 16px 28px;
@@ -10534,7 +10535,7 @@ div[class^="bubble-"] {
 }
 
 .news-16 .news-block-one .inner-box .lower-content .theme-btn{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 16px 30px;
 }
 
@@ -10594,7 +10595,7 @@ div[class^="bubble-"] {
 .subscribe-one.home-16 .form-inner .form-group button{
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 5px;
   width: 204px;
   padding: 17px 20px;
@@ -10829,7 +10830,7 @@ div[class^="bubble-"] {
 
 .page-title.style-two .bread-crumb li{
   color: #808080;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
 }
 
@@ -11847,7 +11848,7 @@ div[class^="bubble-"] {
 .news-three.about-page-5 .news-block-one .inner-box .lower-content .theme-btn{
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 1px solid #e7e7e7;
 }
 
@@ -11973,7 +11974,7 @@ div[class^="bubble-"] {
 .pricing-one.service-page-1 .pricing-block-one .pricing-table .theme-btn{
   padding-top: 16px;
   padding-bottom: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .pricing-one.service-page-1 .pricing-block-one.active-block .pricing-table .table-header{
@@ -11989,7 +11990,7 @@ div[class^="bubble-"] {
 }
 
 .pricing-one.service-page-1 .tab-btn-box .tab-btns li{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .subscribe-five.service-page-1 .subscribe-form .form-group input{
@@ -12205,7 +12206,7 @@ div[class^="bubble-"] {
   color: #141417 !important;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.02);
   padding: 12px 34px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
 }
 
@@ -12241,7 +12242,7 @@ div[class^="bubble-"] {
 }
 
 .pricing-one.service-page-3 .tab-btn-box .tab-btns li{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .service-15.service-page-4{
@@ -12288,7 +12289,7 @@ div[class^="bubble-"] {
   text-align: center;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
   color: #141417;
   cursor: pointer;
@@ -12306,7 +12307,7 @@ div[class^="bubble-"] {
   padding: 11px 32px;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 1px solid #e7e7e7;
   color: #141417 !important;
 }
@@ -12420,7 +12421,7 @@ div[class^="bubble-"] {
   padding-bottom: 16px;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 1px solid #e7e7e7;
   color: #141417 !important;
 }
@@ -12632,7 +12633,7 @@ div[class^="bubble-"] {
 .service-sidebar .consulting-widget textarea{
   border: 1px solid #fff;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .service-sidebar .consulting-widget textarea{
@@ -12761,7 +12762,7 @@ div[class^="bubble-"] {
   line-height: 30px;
   color: #141417;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 0px 20px 9px 20px;
   cursor: pointer;
   transition: all 500ms ease;
@@ -12865,7 +12866,7 @@ div[class^="bubble-"] {
   font-size: 22px;
   line-height: 38px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
   text-align: center;
 }
@@ -12913,7 +12914,7 @@ div[class^="bubble-"] {
   border-radius: 5px;
   padding-top: 17px;
   padding-bottom: 17px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600;
 }
 
@@ -13204,7 +13205,7 @@ div[class^="bubble-"] {
 .faq-sidebar .consulting-widget textarea{
   border: 1px solid #fff;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .faq-sidebar .consulting-widget textarea{
@@ -13422,7 +13423,7 @@ div[class^="bubble-"] {
 }
 
 .team-details-one .progress-box .count-text{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .team-details-one .content-three .form-inner .form-group{
@@ -13450,7 +13451,7 @@ div[class^="bubble-"] {
   font-size: 16px;
   color: #141417;
   padding: 10px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   transition: all 500ms ease;
 }
 
@@ -13540,7 +13541,7 @@ div[class^="bubble-"] {
   border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
   color: #808080;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   transition: all 500ms ease;
 }
 
@@ -13642,7 +13643,7 @@ div[class^="bubble-"] {
   font-size: 16px;
   line-height: 26px;
   color: #141417;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding-left: 27px;
   display: inline-block;
   cursor: pointer;
@@ -13775,7 +13776,7 @@ div[class^="bubble-"] {
   background: rgba(255, 255, 255, 0.07);
   font-weight: 800;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   text-align: center;
   margin-bottom: 14px;
 }
@@ -13786,7 +13787,7 @@ div[class^="bubble-"] {
   line-height: 26px;
   color: #fff;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   text-transform: capitalize;
 }
 
@@ -13805,7 +13806,7 @@ div[class^="bubble-"] {
   border-radius: 5px;
   padding: 15px 150px 15px 30px;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #808080;
 }
 
@@ -13815,7 +13816,7 @@ div[class^="bubble-"] {
   right: 30px;
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #141417;
   cursor: pointer;
   transition: all 500ms ease;
@@ -13977,7 +13978,7 @@ div[class^="bubble-"] {
   background: #fff;
   border: 1px solid #fff;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #808080;
   border-radius: 5px;
   padding: 10px 20px;
@@ -14072,7 +14073,7 @@ div[class^="bubble-"] {
   border: 1px solid #f7f7f7;
   font-size: 16px;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #808080;
   border-radius: 5px;
   padding: 10px 20px;
@@ -14127,7 +14128,7 @@ div[class^="bubble-"] {
   border: 1px solid #e5e5e5;
   font-size: 16px;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #808080;
   border-radius: 5px;
   padding: 10px 20px;
@@ -14154,7 +14155,7 @@ div[class^="bubble-"] {
 .contact-six .theme-btn,
 .contact-seven .theme-btn{
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -14255,7 +14256,7 @@ div[class^="bubble-"] {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #808080;
   padding: 10px 0px;
 }
@@ -14309,7 +14310,7 @@ div[class^="bubble-"] {
   background: #fff;
   border: 1px solid #fff;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #808080;
   border-radius: 5px;
   padding: 10px 20px;
@@ -14330,7 +14331,7 @@ div[class^="bubble-"] {
 /************* project-page **************/
 
 .project-two.project-page-1 .sortable-masonry .filter-tabs li{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 
@@ -14409,7 +14410,7 @@ div[class^="bubble-"] {
   padding: 8px 29px 6px 29px;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   margin: 0px 3.5px;
 }
 
@@ -14453,7 +14454,7 @@ div[class^="bubble-"] {
   padding: 8px 29px 6px 29px;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   margin: 0px 3.5px;
 }
 
@@ -14487,7 +14488,7 @@ div[class^="bubble-"] {
 .project-two.project-page-4 .sortable-masonry .filter-tabs li{
   padding-left: 19px;
   padding-right: 19px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   margin: 0px 0px;
 }
 
@@ -14515,7 +14516,7 @@ div[class^="bubble-"] {
 .project-two.project-page-5 .sortable-masonry .filter-tabs li{
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -14905,7 +14906,7 @@ div[class^="bubble-"] {
   padding-bottom: 16px;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 1px solid #e7e7e7;
   color: #141417 !important;
 }
@@ -15010,7 +15011,7 @@ div[class^="bubble-"] {
     line-height: 30px;
     font-size: 24px;
     color: #808080;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     border: none;
     border-radius: 0px;
     padding-right: 50px;
@@ -15663,7 +15664,7 @@ body.out .mouse-pointer {
 }
 
 .banner-two .theme-btn-two{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 16px;
   font-weight: 700;
   padding-top: 17px;
@@ -15711,7 +15712,7 @@ body.out .mouse-pointer {
 .service-six .theme-btn-seven,
 .support-area .theme-btn-seven{
   padding: 17px 47px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
 }
  
@@ -15746,7 +15747,7 @@ body.out .mouse-pointer {
   background: var(--color-primary);
   padding: 15px 40px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .header-style-seven .theme-btn:hover{
@@ -15775,7 +15776,7 @@ body.out .mouse-pointer {
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .slider-five .theme-btn-two span:before,
@@ -15798,7 +15799,7 @@ body.out .mouse-pointer {
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .service-seven .theme-btn-two span:before,
@@ -15840,7 +15841,7 @@ body.out .mouse-pointer {
   background: var(--color-primary);
   padding: 15px 40px;
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .appointment-one.home-7 .theme-btn:hover{
@@ -15867,7 +15868,7 @@ body.out .mouse-pointer {
   border-radius: 0px;
   background: var(--color-primary);
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .footer-seven .theme-btn:hover{
@@ -15898,7 +15899,7 @@ body.out .mouse-pointer {
   border-radius: 0px;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   background: #f38836;
 }
 
@@ -15926,7 +15927,7 @@ body.out .mouse-pointer {
   border-radius: 0px;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   background: #fff;
   color: #141417 !important;
   padding: 22px 53px;
@@ -15961,7 +15962,7 @@ body.out .mouse-pointer {
   font-size: 15px;
   font-weight: 500;
   padding: 10px 33px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 2px solid #fbdbc2;
   color: #f38836 !important;
 }
@@ -15995,7 +15996,7 @@ body.out .mouse-pointer {
   border-radius: 0px;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 12px 43px;
   background: #f38836;
 }
@@ -16030,7 +16031,7 @@ body.out .mouse-pointer {
   font-size: 15px;
   font-weight: 500;
   padding: 11px 32px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border: 2px solid #fbdbc2;
   color: #f38836 !important;
 }
@@ -16064,7 +16065,7 @@ body.out .mouse-pointer {
   border-radius: 0px;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   background: #f38836;
 }
 
@@ -16128,7 +16129,7 @@ body.out .mouse-pointer {
 
 .slider-eight .theme-btn-two{
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   border-radius: 0px;
   padding-top: 17px;
@@ -16187,7 +16188,7 @@ body.out .mouse-pointer {
 
 .service-ten .more-btn .theme-btn-two{
   font-weight: 700;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   border-radius: 0px;
   padding-top: 17px;
@@ -16213,13 +16214,13 @@ body.out .mouse-pointer {
   background: #ff5e14;
   padding: 12px 35px;
   font-weight: 600;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 17px;
 }
 
 .slider-nine .theme-btn-eight{
   font-weight: 600;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 17px;
   border-radius: 0px;
   margin-right: 17px;
@@ -16250,7 +16251,7 @@ body.out .mouse-pointer {
 
 .banner-three .theme-btn{
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 17px 40px;
   background: var(--color-primary);
@@ -16260,7 +16261,7 @@ body.out .mouse-pointer {
   padding-top: 17px;
   padding-bottom: 17px;
   font-weight: 600;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 17px;
   background: var(--color-primary);
 }
@@ -16282,7 +16283,7 @@ body.out .mouse-pointer {
 .subscribe-five .theme-btn{
   background: var(--color-primary);
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 17px 32px;
 }
@@ -16290,7 +16291,7 @@ body.out .mouse-pointer {
 .banner-five .theme-btn,
 .about-13 .theme-btn{
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   background: #00d0f5;
   padding-top: 17px;
@@ -16318,7 +16319,7 @@ body.out .mouse-pointer {
 .pricing-one.home-13 .theme-btn-six{
   border-radius: 5px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 16px 30px;
 }
 
@@ -16336,7 +16337,7 @@ body.out .mouse-pointer {
 
 .cta-seven .theme-btn{
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 17px 40px;
   background: #00d0f5;
@@ -16365,7 +16366,7 @@ body.out .mouse-pointer {
 .header-style-15 .theme-btn{
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 11px 32px;
 }
 
@@ -16381,7 +16382,7 @@ body.out .mouse-pointer {
 .about-15 .theme-btn,
 .cta-eight .theme-btn{
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 16px;
   padding: 17px 32px;
   background: #17be74;
@@ -16402,7 +16403,7 @@ body.out .mouse-pointer {
   color: #141417 !important;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 30px;
   padding: 17px 40px;
 }
@@ -16425,7 +16426,7 @@ body.out .mouse-pointer {
   padding: 16px 28px;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .pricing-one.home-15 .theme-btn:hover{
@@ -16449,7 +16450,7 @@ body.out .mouse-pointer {
 .subscribe-one.home-15 .form-inner .form-group .theme-btn{
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   border-radius: 30px;
   width: 224px;
   padding: 17px 30px;
@@ -16464,7 +16465,7 @@ body.out .mouse-pointer {
   border-radius: 0px;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 12px 32px;
   background: #f38836;
 }
@@ -16495,7 +16496,7 @@ body.out .mouse-pointer {
 
 .header-style-16 .theme-btn{
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 12px 31px;
   border-radius: 5px;
@@ -16504,7 +16505,7 @@ body.out .mouse-pointer {
 
 .request-form .theme-btn{
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 12px 20px;
   width: 166px;
@@ -16514,7 +16515,7 @@ body.out .mouse-pointer {
 
 .about-16 .theme-btn{
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 17px 40px;
   border-radius: 5px;
@@ -16572,7 +16573,7 @@ body.out .mouse-pointer {
 
 .service-20 .content_block_27 .theme-btn{
   font-weight: 600;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 17px;
   padding: 17px 35px;
   background: #e45712;
@@ -16594,7 +16595,7 @@ body.out .mouse-pointer {
 .service-details .theme-btn{
   border-radius: 5px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 17px 40px;
   border-radius: 5px;
@@ -16614,7 +16615,7 @@ body.out .mouse-pointer {
   font-size: 15px;
   line-height: 26px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .pricing-one.pricing-page-1 .pricing-block-one .pricing-table .theme-btn {
@@ -16631,7 +16632,7 @@ body.out .mouse-pointer {
 .pricing-one.pricing-page-2 .theme-btn-six {
   border-radius: 5px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   padding: 16px 30px;
 }
 
@@ -16666,7 +16667,7 @@ body.out .mouse-pointer {
 
 .contact-three .theme-btn {
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   padding: 12px 25px;
   border-radius: 5px;
