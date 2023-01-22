@@ -228,10 +228,18 @@
             </div>
         </section>
         <!-- End Page Title -->
-
         <!-- Calendly inline widget begin -->
-        <div id="calendly" class="calendly-inline-widget bg-color-1" data-url="https://calendly.com/emd-labs/30min"
-            style="min-width:250px;height:830px;"></div>
+        <div id="calendly" class="calendly-inline-widget bg-color-1 sec-pad" data-url="https://calendly.com/emd-labs/30min"
+            style="min-width:250px;height:1100px;">
+            <div id="contact" class="contactinfo-one p_relative  centred">
+            <div class="auto-container">
+            <div class="sec-title p_relative d_block">
+                <h5 class="d_block fs_17 lh_20 fw_sbold uppercase mb_15">Get In Touch</h5>
+                <h2 class="d_block fs_40 fw_bold">Have an idea in Mind? <br />Let’s e-Meet</h2>
+            </div>
+        </div>
+    </div>
+    </div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         <!-- Calendly inline widget end -->
 
@@ -255,7 +263,7 @@
                                             alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Office Location</h4>
-                                <p class="font_family_poppins">6th Cross, Sarava Road, Kallady 30000</p>
+                                <p class="font_family_poppins">6th Cross Saravana Street,</br> Kallady, Thiruchchenthoor,</br> Batticaloa 30000 Sri Lanka.</p>
                             </div>
                         </div>
                     </div>
@@ -272,7 +280,7 @@
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Company Email</h4>
                                 <p class="font_family_poppins"><a
                                         href="mailto:example@gmail.com">info@emd-labs.com</a>
-                                        <br /><br /></p>
+                                        <br /><br /></br> </p>
                             </div>
                         </div>
                     </div>
@@ -288,7 +296,7 @@
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>
                                 <p class="font_family_poppins"><a href="tel:94766646404">+(94)76 664 6404</a><br /><a
-                                        href="tel:94652226302">+(94)65 222 6302</a></p>
+                                        href="tel:94652226302">+(94)65 222 3443</a></br> </br> </p>
                             </div>
                         </div>
                     </div>
@@ -324,22 +332,22 @@
                                     succession, and all other important transitions.</p>
                             </div>
                             <div class="form-inner p_relative ml_5 mr_5">
-                                <form method="post" action="sendemail.php" id="contact-form">
+                                <form method="post" action="https://docs.google.com/forms/u/0/d/1C12-EJHr1ZAdOAosWHzRAuzqvu2CrzTnjEvgbpDCKPc/formResponse" id="contact-form" onsubmit="return window.submitGoogleForm(this);">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" name="username" placeholder="Your Name" required="">
+                                            <input type="text" name="entry.333861885" placeholder="Your Name" required>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="email" name="email" placeholder="Email Address" required="">
+                                            <input type="email" name="entry.927992813" placeholder="Email Address" required>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                            <input type="text" name="phone" required="" placeholder="Phone Number">
+                                            <input type="text" name="entry.2113837281" placeholder="Phone Number">
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                            <input type="text" name="subject" required="" placeholder="Subject">
+                                            <input type="text" name="entry.630672286" placeholder="Subject">
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea name="message" placeholder="Leave A Comment"></textarea>
+                                            <textarea name="entry.1336736420" placeholder="Leave A Comment" required></textarea>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                             <button class="theme-btn theme-btn-eight" type="submit"
@@ -464,6 +472,7 @@
 
 
     <!-- jequery plugins -->
+    <script src="assets/js/google-form.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
