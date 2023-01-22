@@ -20,7 +20,7 @@
   
       form.parentNode.className += ' submitted';
   
-      var res = confirm("Thank you for your message. \n\nWe will respond to you as soon as possible. \n\nKind regards, \nEMD Labs");
+      var res = confirm("Thankyou for your response");
       if (res == true)
       {
         window.location.replace("https://www.emd-labs.com/");
