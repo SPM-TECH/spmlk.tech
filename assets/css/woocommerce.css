@@ -328,7 +328,7 @@
 .shop-details .product-discription .tab-btn-box .tab-btns li:before{
 	position: absolute;
 	content: '';
-	background: #141417;
+	background: var(--color-secondary);
 	width: 0%;
 	height: 1px;
 	left: 0px;
@@ -930,7 +930,7 @@
 
 .checkout-section .payment-info .check-box label:after{
 	content: '';
-	background: #141417;
+	background: var(--color-secondary);
 	width: 7px;
 	height: 7px;
 	border-radius: 2px;
