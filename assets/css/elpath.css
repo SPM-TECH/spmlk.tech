@@ -4257,7 +4257,7 @@ Image Hover
     right: 0;
     bottom: 0;
     opacity: 0;
-    background: #000000;
+    background: var(--color-secondary);
     opacity: 1.0;
     border-radius: 5px;
     transition: .5s;

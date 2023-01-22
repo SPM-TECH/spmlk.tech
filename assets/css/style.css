@@ -462,7 +462,7 @@
 .image_block_one .image-box .video-inner:before{
   position: absolute;
   content: '';
-  background: #000;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -1228,7 +1228,7 @@
 
 .funfact-one{
   overflow: hidden;
-  background: #252628;
+  background: var(--color-secondary);
 }
 
 .counter-block-one .inner-box .count-outer{
@@ -1823,7 +1823,7 @@
 /** chooseus-two **/
 
 .chooseus-two{
-  background: #252628;
+  background: var(--color-secondary);
 }
 
 .chooseus-two .bg-layer{
@@ -1970,7 +1970,7 @@
 .team-block-one .inner-box .lower-content h4:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 20px;
   height: 2px;
   left: 0px;
@@ -1990,7 +1990,7 @@
 
 .project-block-one .inner-box .image-box{
   overflow: hidden;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .project-block-one .inner-box .image-box img{
@@ -2088,7 +2088,7 @@
   transform: translateY(-50%) scaleX(1);
   width: 18px;
   height: 2px;
-  background: #141417;
+  background: var(--color-secondary);
   transition: all 500ms ease;
   -webkit-transform-origin: right;
   -ms-transform-origin: right;
@@ -2131,7 +2131,7 @@
   transform: translateY(-50%) scaleX(1);
   width: 18px;
   height: 2px;
-  background: #141417;
+  background: var(--color-secondary);
   transition: all 500ms ease;
   -webkit-transform-origin: right;
   -ms-transform-origin: right;
@@ -2286,7 +2286,7 @@
 /** subscribe-one **/
 
 .subscribe-one .inner-container{
-  background: #252628;
+  background: var(--color-secondary);
   overflow: hidden;
 }
 
@@ -2970,7 +2970,7 @@
 
 .news-three .news-block-one .inner-box .lower-content .theme-btn:hover{
   border-color: #141417;
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .news-three .news-block-one .inner-box .lower-content .theme-btn:hover{
@@ -3264,7 +3264,7 @@
 }
 
 .feature-three .feature-block .icon-box:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .feature-three .feature-block-two .inner-box:hover .icon-box .icon{
@@ -3783,7 +3783,7 @@
 .banner-two:before{
   position: absolute;
   content: '';
-  background: #000;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -4158,7 +4158,7 @@
 }
 
 .content_block_nine .content-box .video-btn a:hover{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 
@@ -4382,7 +4382,7 @@
 }
 
 .contact-two .inner-box .theme-btn:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .contact-two .inner-box .theme-btn{
@@ -4751,7 +4751,7 @@
 .service-block-six .inner-box:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 100%;
   height: 0%;
   left: 0px;
@@ -4883,7 +4883,7 @@
 /** process-two **/
 
 .process-two{
-  background: #252628;
+  background: var(--color-secondary);
 }
 
 .process-two .sec-title-six h2{
@@ -5023,7 +5023,7 @@
 /** cta-four **/
 
 .cta-four{
-  background: #252628;
+  background: var(--color-secondary);
   padding: 135px 0px;
 }
 
@@ -6116,7 +6116,7 @@ div[class^="bubble-"] {
 
 .project-block-three .inner-box .image-box{
   overflow: hidden;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .project-block-three .inner-box .image-box img{
@@ -6343,7 +6343,7 @@ div[class^="bubble-"] {
 .cta-five:before{
   position: absolute;
   content: '';
-  background: #000;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -7313,7 +7313,7 @@ div[class^="bubble-"] {
 }
 
 .subscribe-three .form-inner .form-group button:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .subscribe-three .pattern-layer{
@@ -7990,7 +7990,7 @@ div[class^="bubble-"] {
 
 .project-block-five .inner-box .image{
   overflow: hidden;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .project-block-five .inner-box .image img{
@@ -8262,7 +8262,7 @@ div[class^="bubble-"] {
 }
 
 .domain-field .search-form .form-group button:hover{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .domain-field .domain-list h4,
@@ -8603,7 +8603,7 @@ div[class^="bubble-"] {
 /** news-13 **/
 
 .news-13 .news-block-one .inner-box .image{
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .news-13 .news-block-one .inner-box:hover{
@@ -8668,7 +8668,7 @@ div[class^="bubble-"] {
 .banner-four .content-box .btn-box a:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 0%;
   height: 100%;
   left: 0px;
@@ -9112,7 +9112,7 @@ div[class^="bubble-"] {
 .content_block_17 .content-box .btn-box a:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 0%;
   height: 100%;
   left: 0px;
@@ -9316,7 +9316,7 @@ div[class^="bubble-"] {
 .service-block-12 .inner-box .icon-box:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -9546,7 +9546,7 @@ div[class^="bubble-"] {
 /** news-15 **/
 
 .news-15 .news-block-one .inner-box .image{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .news-15 .shape .shape-1{
@@ -9760,7 +9760,7 @@ div[class^="bubble-"] {
   content: '';
   width: 2px;
   height: 13px;
-  background: #141417;
+  background: var(--color-secondary);
   top: 7px;
   right: -18px;
 }
@@ -9852,7 +9852,7 @@ div[class^="bubble-"] {
 .service-block-13 .inner-box .lower-content .icon-box:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -10246,7 +10246,7 @@ div[class^="bubble-"] {
 
 .project-block-six .inner-box .image-box{
   overflow: hidden;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .project-block-six .inner-box .image-box img{
@@ -10634,7 +10634,7 @@ div[class^="bubble-"] {
 .page-title:before{
   position: absolute;
   content: '';
-  background: #000;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -11139,7 +11139,7 @@ div[class^="bubble-"] {
 /** team-nine **/
 
 .team-block-three .inner-box .image{
-  background: #000;
+  background: var(--color-secondary);
   overflow: hidden;
 }
 
@@ -11235,7 +11235,7 @@ div[class^="bubble-"] {
 .feature-block-eight .inner-box:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 100%;
   height: 0%;
   left: 0px;
@@ -11275,7 +11275,7 @@ div[class^="bubble-"] {
 .team-block-four .inner-box .image{
   width: 320px;
   height: 320px;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .team-block-four .inner-box .image img{
@@ -11524,7 +11524,7 @@ div[class^="bubble-"] {
 }
 
 .clients-one.light{
-  background: #252628;
+  background: var(--color-secondary);
   overflow: hidden;
 }
 
@@ -11721,7 +11721,7 @@ div[class^="bubble-"] {
 
 .team-block-five .inner-box .image-box{
   overflow: hidden;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .team-block-five .inner-box .image-box img{
@@ -11986,7 +11986,7 @@ div[class^="bubble-"] {
 }
 
 .pricing-block-one.active-block .pricing-table .table-content-two .feature-list li:after{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .pricing-one.service-page-1 .tab-btn-box .tab-btns li{
@@ -12040,7 +12040,7 @@ div[class^="bubble-"] {
 }
 
 .content_block_27 .content-box .list-style-one li:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .image_block_24 .image-box .image{
@@ -12226,7 +12226,7 @@ div[class^="bubble-"] {
 
 .pricing-block-four.active-block .pricing-table .table-header .theme-btn:hover{
   color: #fff !important;
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .pricing-one.service-page-3 .pricing-block-four.active-block .pricing-table .table-header .theme-btn:hover{
@@ -13926,7 +13926,7 @@ div[class^="bubble-"] {
 .info-block-one .inner-box .icon-box:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -14034,7 +14034,7 @@ div[class^="bubble-"] {
 .contact-four .info-list li .icon-box:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 100%;
   height: 100%;
   left: 0px;
@@ -14501,7 +14501,7 @@ div[class^="bubble-"] {
 }
 
 .project-block-seven .inner-box .image-box .image{
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .project-block-seven .inner-box:hover .image-box .image img{
@@ -14561,7 +14561,7 @@ div[class^="bubble-"] {
 }
 
 .project-details .carousel-outer .image-box{
-  background: #000;
+  background: var(--color-secondary);
   overflow: hidden;
 }
 
@@ -14625,7 +14625,7 @@ div[class^="bubble-"] {
 
 .project-details .image-box .image{
   overflow: hidden;
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .project-details .image-box .image img{
@@ -15414,7 +15414,7 @@ body.out .mouse-pointer {
 }
 
 .mouse-pointer.black {
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .mouse-pointer.black.large {
@@ -15851,7 +15851,7 @@ body.out .mouse-pointer {
 .appointment-one.home-7 .theme-btn:before{
   position: absolute;
   content: '';
-  background: #141417;
+  background: var(--color-secondary);
   width: 0%;
   height: 100%;
   left: 0px;
@@ -16272,7 +16272,7 @@ body.out .mouse-pointer {
 }
 
 .about-12 .content_block_nine .content-box .theme-btn:before{
-  background: #000;
+  background: var(--color-secondary);
 }
 
 .about-12 .content_block_nine .content-box .theme-btn:after{
@@ -16328,7 +16328,7 @@ body.out .mouse-pointer {
 }
 
 .pricing-one.home-13 .pricing-block-two.active-block .pricing-table .theme-btn:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .pricing-one.home-13 .pricing-block-two.active-block .pricing-table .theme-btn:hover{
@@ -16390,7 +16390,7 @@ body.out .mouse-pointer {
 
 .slider-11 .theme-btn:hover,
 .cta-eight .theme-btn:hover{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .service-block-12 .inner-box .lower-content .link a:hover{
@@ -16580,7 +16580,7 @@ body.out .mouse-pointer {
 }
 
 .subscribe-five.service-page-1.service-page-4 .theme-btn:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .content_block_28 .content-box .theme-btn:hover,
@@ -16645,7 +16645,7 @@ body.out .mouse-pointer {
 }
 
 .pricing-one.pricing-page-2 .pricing-block-two.active-block .pricing-table .theme-btn:before{
-  background: #141417;
+  background: var(--color-secondary);
 }
 
 .pricing-one.pricing-page-3 .theme-btn:before {
