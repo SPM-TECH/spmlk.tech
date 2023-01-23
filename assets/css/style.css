@@ -12677,19 +12677,25 @@ div[class^="bubble-"] {
   border-radius: 50%;
 }
 
-.positions-block-one .inner-box .theme-btn{
-  border: 1px solid #e5e5e5;
-  color: #141417 !important;
-  padding-top: 16px;
-  padding-bottom: 16px;
+.positions-block-one .inner-box .theme-btn-five{
+  background: var(--color-primary) !important;
+  padding: 17px 40px;
 }
 
-.positions-block-one .inner-box{
-  background: #fff;
+.positions-block-one .inner-box .theme-btn-five:before{
+  position: absolute;
+  content: '';
+  background: var(--color-secondary);
+  width: 0%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  transition: all 500ms ease;
 }
 
-.positions-block-one .inner-box .theme-btn:hover{
-  color: #fff !important;
+.positions-block-one .inner-box .theme-btn-five:hover:before{
+  width: 100%;
 }
 
 .positions-section .pattern-layer .pattern-1{
