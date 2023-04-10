@@ -7593,7 +7593,7 @@ div[class^="bubble-"] {
   right: 0px;
   width: 839px;
   height: 827px;
-  background: rgba(242, 116, 5, 0.75);
+  background: #3799D490;
   background-repeat: no-repeat;
   animation: heroShapeFour 6s linear infinite;
 }
@@ -7603,7 +7603,7 @@ div[class^="bubble-"] {
   right: 0px;
   width: 809px;
   height: 827px;
-  background: rgba(242, 116, 5, 0.5);
+  background: #3799D450;
   background-repeat: no-repeat;
   animation: heroShapeFour 6s linear infinite;
 }
