@@ -7579,6 +7579,10 @@ div[class^="bubble-"] {
   margin-right: 60px;
 }
 
+.btn-box{
+  justify-content: center;
+}
+
 .banner-three{
   padding-top: 240px;
   overflow: hidden;
